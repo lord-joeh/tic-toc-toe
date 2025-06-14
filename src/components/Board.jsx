@@ -24,7 +24,7 @@ function Board() {
   if (winner) {
     status = `Winner: ${winner}`;
   } else if (squares.every((square) => square !== null)) {
-    status = 'Draw!';
+    status = 'No Win!';
   } else {
     status = `Next player: ${xIsNext ? 'X' : 'O'}`;
   }
