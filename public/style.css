@@ -1,7 +1,10 @@
+body {
+  background-color: #e7e6c4;
+}
+
 .container {
   text-align: center;
 }
-
 .square {
   width: 5rem;
   height: 5rem;
@@ -15,10 +18,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background 0.2s;
+  transition: background 0.3s;
 }
 .square:hover {
-  background-color: #f3f4f6;
+  background-color: #9198a0;
 }
 
 .square-box {
@@ -36,15 +39,16 @@
   padding-right: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  background-color: #3b82f6;
+  background-color: #ff3500;
   color: #fff;
   border-radius: 0.25rem;
-  transition: background 0.2s;
+  transition: background 0.3s;
   border: none;
   cursor: pointer;
 }
 .reset-btn:hover {
-  background-color: #2563eb;
+  background-color: #e7082d;
+  transform: scale(1.2);
 }
 
 .status {
